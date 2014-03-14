@@ -1,0 +1,20 @@
+Favorite Subject: 
+	<br>Math: 0
+	<br>Science: 3
+	<br>English: 2
+	<br>History: 4
+	<br>Being Whack: 3
+	<br>
+<br>Favorite Planet:
+	<br>The Sun: 0
+	<br>The Nile River: 4
+	<br>The Moon: 2
+	<br>Zimbabwe: 6
+	<br>North Dakota: 0
+	<br>
+<br>Favorite Type of Utensil:
+	<br>Tongs: 2
+	<br>Whisk: 3
+	<br>Ladle: 2
+	<br>Spork: 5
+	<br>Spatula: 0

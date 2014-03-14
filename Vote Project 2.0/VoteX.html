@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Voting</title>
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body bgcolor = "#1B67E0">
+<div id="header">
+	<img class="header" src="ProfPic.jpeg" height = "120px" width="120px"/>
+	<h1><a href="http://149.89.161.100/~isaac.gluck/Profile/Profile.html">Isaac Gluck</a></h1>
+</div>
+	<h1 align = "center"> Vote Your Days Away!</h1><br>
+
+<form name="input" action="vote.py" method="post">
+	Username: <input type="text" name="username"><br>
+	Password: <input type="password" name="pswd"><br>
+	<input type="submit" name="register" value="Register"><br><p>In order to vote, you must register. Then return to this page, enter your information, and vote.</p><br><hr>
+
+	<strong>Favorite Subject:</strong><br>
+	<input type="radio" name="subject" value="Math">Math<br>
+	<input type="radio" name="subject" value="Science">Science<br>
+	<input type="radio" name="subject" value="English">English<br>
+	<input type="radio" name="subject" value="History">History<br>
+	<input type="radio" name="subject" value="Whack" checked>Being Whack<br><br>
+
+	<strong>Favorite Planet:</strong><br>
+	<input type="radio" name="planet" value="Sun">The Sun<br>
+	<input type="radio" name="planet" value="Nile">The Nile River<br>
+	<input type="radio" name="planet" value="Moon">The Moon<br>
+	<input type="radio" name="planet" value="Zimbabwe">Zimbabwe<br>
+	<input type="radio" name="planet" value="Dakota" checked>North Dakota<br><br>
+
+	<strong>Favorite Type of Utensil:</strong><br>
+	<input type="radio" name="utensil" value="Tongs">Tongs<br>
+	<input type="radio" name="utensil" value="Whisk">Whisk<br>
+	<input type="radio" name="utensil" value="Ladle">Ladle<br>
+	<input type="radio" name="utensil" value="Spork">Spork<br>
+	<input type="radio" name="utensil" value="Spatula" checked>Spatula<br><br>
+
+	<input type="submit" name="vote" value="Vote"><br>
+	</form>
+
+	<hr><br><a href="http://149.89.161.100/~isaac.gluck/Profile/Profile.html" text-decoration="none"> Go on home.</a>
+</body>
+</html>

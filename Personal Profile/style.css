@@ -1,0 +1,98 @@
+div {
+	border-radius: 0px;
+}
+
+body {
+font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+a:link{text-decoration: none; color:#545454;}
+a:visited{text-decoration:none; color:#545454;}
+a:hover{text-decoration:none; color:#FFFFFF;}
+a:active{text-decoration:none; color:#AAAAAA;}
+h1 a:link{text-decoration: none; color:#808080;}
+h1 a:hover{color:#FFFFFF;background-color: #AAAAAA}
+
+
+#header{
+	z-index: 1;
+	position: fixed;
+	margin-top:-15px;
+	background-color: rgba(255,255,255,0.8);
+	padding: 13px;
+	border-radius: 0;
+}
+
+
+.header{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#description{
+	margin-top: -8px;
+	position: relative;
+	background-color: #5C8DFF;
+	padding: 18px;
+}
+
+#one{
+	font-size: 200%;
+}
+
+.p{
+	text-align: center;
+	font-weight: bold;
+}
+
+#left{
+	display: inline-block;
+	background:url(Violin.jpg) repeat;
+	width: 31%;
+	height:600px;
+	float: left;
+	padding: 10px;
+	margin: 5px 5px 5px 4px;
+	border: 1px black solid;
+	opacity: 0.9;
+}
+
+#center{
+	display: inline-block;
+	background:url(Soccer.jpg) repeat;
+	width: 31%;
+	height:600px;
+	float: left;
+	padding: 10px;
+	margin: 5px 5px 5px 0px;
+	margin-bottom: 5px;
+	border: 1px black solid;
+	opacity: 0.9;
+}
+
+#right{
+	display: inline-block;
+	background:url(Stuy.jpg) repeat;
+	width: 31%;
+	height:600px;
+	float: left;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px black solid;
+	opacity: 0.9;
+}
+
+.opac{
+	background-color: rgba(255,255,255,0.8);
+	padding:5px;
+	border: 1px black dashed;
+}
+
+#temp{
+	margin-top: -8px;
+	position: relative;
+	background-color: #5C8DFF;
+	padding: 0px;
+}
